@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MineSweeper :)</title>
+
+    <link rel="shortcut icon" href="img/bomb-icon.svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script defer src="js/script.js"></script>
+</head>
+
+<body>
+
+    <div class="splash-screen">
+        <div class="splash-screen-box">
+            <h1>Mine</h1>
+            <h2>Sweeper</h2>
+        </div>
+        <div class="progress-bar"></div>
+    </div>
+
+    <div class="bg-img"></div>
+    <h1 class="title">
+        <span class="firstWord">Mine <img src="img/bomb-icon.svg" alt="bomb"></span>
+        <span class="secondWord">Sweeper</span>
+    </h1>
+    <div class="table-cont">
+        <div class="table-bg">
+            <table class="table">
+                <tbody></tbody>
+            </table>
+        </div>
+    </div>
+
+    <div class="popup-bg hide"></div>
+    <div class="bomb-popup popup hide"></div>
+    <div class="party-popup popup hide"></div>
+    <div class="dialog-popup popup hide">
+        <p>Hurray!! All mines cleared<br><span class='emoji'>🥳</span></p>
+        <button>play again</button>
+    </div>
+</body>
+
+</html>
