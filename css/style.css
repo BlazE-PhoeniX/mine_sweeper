@@ -34,7 +34,7 @@ html {
     height: 100vh;
     top: 0;
     left: 0;
-    background: url(../img/grass.jpeg);
+    background: linear-gradient(45deg, #57a84b, #87d75c);
     display: flex;
     z-index: 200;
     justify-content: center;
