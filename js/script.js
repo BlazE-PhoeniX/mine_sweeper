@@ -182,17 +182,6 @@ class Board {
             }
         }
     }
-
-    getBombs() {
-        let bombs = "";
-        for (let row of this.tiles) {
-            for (let tile of row) {
-                bombs += tile.isBomb ? "1 " : "0 ";
-            }
-            bombs += "\n";
-        }
-        return bombs;
-    }
 }
 
 let board, touchfunc;
@@ -201,7 +190,6 @@ function startGame() {
     board = new Board();
     touchfunc = board.openTile.bind(board);
     containerBoard.addEventListener("click", touchfunc);
-    console.log(board.getBombs());
 }
 
 startGame();
